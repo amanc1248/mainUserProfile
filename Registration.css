@@ -1,0 +1,71 @@
+
+body{
+    background-color:#FAFAFA;
+}
+
+.firstHeading{
+  font-size: 25px;
+  text-align: center;
+}
+/* style the container */
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px rgb(248, 245, 245);
+    margin-bottom: 50px;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding:5% 3% 5% 3%;
+}
+
+ .labelColumn{
+   color:dimgray;
+    font-size: 15px;
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2%;
+
+  }
+  /* styling inputs, select elements and textarea */
+   .inputColumn{
+    color: dimgray;
+    width: 100%;
+    padding: 12px;
+    border: 3px solid rgb(248, 246, 246);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* styling the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 25%;
+  padding: 2%;
+  width: 50%;
+
+
+}
+
+.registrationOption{
+  text-align: center;
+}
+/* i[class="fab fa-facebook-square"]{
+    color:rgb(70, 58, 201);
+    margin-right: 50px;
+}
+i[class="fab fa-google"]{
+    color: rgb(226, 69, 69);
+} */
+
+@media screen and (max-width: 1000px) {
+  .container{
+    width: 93%;
+    margin:5% 0 5% 0;
+  }
+}

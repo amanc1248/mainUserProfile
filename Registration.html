@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+
+        <!-- CSS Styles Link -->
+        <link rel="stylesheet" href="Registration.css">
+
+        <!-- Fontawesome icons link -->
+        <link rel="stylesheet" href="file:///E:/Movement/Cultural%20dress%20online/Fontawesome/fontawesome-free-5.13.0-web/css/all.css">
+
+        <!-- Javascript link -->
+        <script type="text/javascript" src="Registration.js"></script>
+    </head>
+
+    <body>
+      <!-- this is for the heading -->
+        <div class="firstHeading">
+          <h1>Register</h1>
+        </div>
+
+        <!-- everything inside the registration form -->
+        <div class="container">
+            <form action="" method="POST" id="register">
+              <!-- FirstName -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="FName">First Name</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="text" name="firstName" class="inputColumn" placeholder="First Name">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+              <!-- Lastname -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="lName">Last Name</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="text" name="lastName" class="inputColumn" placeholder="Last Name">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Email id -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="validEmail">Enter valid email-id</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="email" name="email" class="inputColumn" placeholder="E-mail">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!--Selecting gender -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="gender">Gender: </label>
+                  </div>
+                  <div class="inputDiv">
+                    <select name="gender" class="inputColumn" >
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- this is for contact number -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="contact">Contact Number</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="tel" name="phoneNumber" class="inputColumn" placeholder="Contact Number" pattern="[0-9]{10}" maxlength="10">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Date Of Birth -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="dob">Date Of Birth</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="date" name="date" class="inputColumn" placeholder="Date of birth">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Password -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="password" name="pwd" class="inputColumn" placeholder="Password" minlength="8" maxlength="20">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Confirm password -->
+                <div class="row">
+                  <div class="labelColumn">
+                    <label for="confirmpwd">Confirm Password</label>
+                  </div>
+                  <div class="inputDiv">
+                    <input type="password" name="pwd" class="inputColumn" placeholder="Confirm Password" minlength="8" maxlength="20">
+                  </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!--Registration submit button-->
+                <div class="row">
+                  <input type="submit" value="Sign Up" id="signUp">
+                </div>
+
+
+                <!-- Register with Facebook/Google  -->
+                <div class="registrationOption">
+                  <div class="row">
+                      <h2><span>Or, Sign up with</span></h2>
+                  </div>
+                  <div class="row">
+                    <i class="fab fa-google"></i>
+                    
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fas fa-shield-alt"></i>
+
+                  </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
